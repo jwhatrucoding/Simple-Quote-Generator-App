@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage>{
 
   //method
   generateQuote() async {
+    // TODO: Fix latency issue and add loading indicator
     var response = await http.get(Uri.parse(quoteURL));
     var result = jsonDecode(response.body);
 
