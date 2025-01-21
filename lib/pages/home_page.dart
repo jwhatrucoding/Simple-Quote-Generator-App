@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage>{
       _displayText = result[0]["q"];
 
       // Assign author to variable
-      _authorOfQuote = "- " + result[0]["a"];
+      _authorOfQuote = "- ${result[0]["a"]}";
       // print(result);
     });
   }
@@ -71,6 +71,9 @@ class _HomePageState extends State<HomePage>{
         
               ElevatedButton(
                 onPressed: generateQuote,
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blue[400],
+                ),
                 child: Text(
                   style: TextStyle(
                     color: Colors.white,
@@ -78,11 +81,7 @@ class _HomePageState extends State<HomePage>{
                   ),
                   "Generate",
                 ),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blue[400],
-                ),
               ),
-
               // TODO: Favorite Button + Funcionality
             ],
           ),
