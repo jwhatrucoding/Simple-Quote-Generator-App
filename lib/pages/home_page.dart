@@ -82,6 +82,8 @@ class _HomePageState extends State<HomePage>{
                   backgroundColor: Colors.blue[400],
                 ),
               ),
+
+              // TODO: Favorite Button + Funcionality
             ],
           ),
         ),
