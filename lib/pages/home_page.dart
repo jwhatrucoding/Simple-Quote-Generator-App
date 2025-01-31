@@ -14,12 +14,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage>{
-  // variables
+  // Variables
   final String quoteURL = "https://zenquotes.io/api/random";
   String _displayText = "Press for Random Quote";
   String _authorOfQuote = "";
 
-  //method
+  // Methods
   generateQuote() async {
     // TODO: Fix latency issue and add loading indicator
     var response = await http.get(Uri.parse(quoteURL));
