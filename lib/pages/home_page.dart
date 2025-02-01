@@ -44,7 +44,6 @@ class _HomePageState extends State<HomePage>{
         foregroundColor: Colors.white,
         backgroundColor: Colors.blue[400],
       ),
-
       body: Padding(
         padding: const EdgeInsets.all(30.0),
         child: Center(
@@ -58,18 +57,14 @@ class _HomePageState extends State<HomePage>{
                 ),
                 _displayText,
               ),
-
               const SizedBox(height: 15,),
-
               Text(
                 _authorOfQuote,
                 style: TextStyle(
                   fontSize: 16,                 
                 ),
               ),
-
               const SizedBox(height: 30,),
-        
               ElevatedButton(
                 onPressed: generateQuote,
                 style: ElevatedButton.styleFrom(
