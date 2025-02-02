@@ -55,10 +55,12 @@ class _HomePageState extends State<HomePage>{
                   fontWeight: FontWeight.bold,
                   fontSize: 24,
                 ),
+                // Display text
                 _displayText,
               ),
               const SizedBox(height: 15,),
               Text(
+                // Display author
                 _authorOfQuote,
                 style: TextStyle(
                   fontSize: 16,                 
