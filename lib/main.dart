@@ -13,7 +13,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // deactivate debug banner 
       debugShowCheckedModeBanner: false,
-      // makes white screen
       home: HomePage(), 
     );
   }
