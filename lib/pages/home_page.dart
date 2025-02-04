@@ -80,7 +80,7 @@ class _HomePageState extends State<HomePage>{
                   "Generate",
                 ),
               ),
-              // TODO: Favorite Button + Funcionality
+              // TODO: Favorite button + funcionality
             ],
           ),
         ),
